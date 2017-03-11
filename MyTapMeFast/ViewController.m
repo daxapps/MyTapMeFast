@@ -26,4 +26,9 @@
 }
 
 
+- (IBAction)startGame:(id)sender {
+}
+
+- (IBAction)tapButton:(id)sender {
+}
 @end
