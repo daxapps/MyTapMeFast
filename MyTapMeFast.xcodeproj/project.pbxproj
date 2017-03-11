@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0849DE11E747E7B009EB1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0849DE01E747E7B009EB1AA /* main.m */; };
+		E0849DE41E747E7B009EB1AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0849DE31E747E7B009EB1AA /* AppDelegate.m */; };
+		E0849DE71E747E7B009EB1AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0849DE61E747E7B009EB1AA /* ViewController.m */; };
+		E0849DEA1E747E7B009EB1AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0849DE81E747E7B009EB1AA /* Main.storyboard */; };
+		E0849DEC1E747E7B009EB1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0849DEB1E747E7B009EB1AA /* Assets.xcassets */; };
+		E0849DEF1E747E7B009EB1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0849DED1E747E7B009EB1AA /* LaunchScreen.storyboard */; };
+		E0849DFA1E747E7B009EB1AA /* MyTapMeFastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0849DF91E747E7B009EB1AA /* MyTapMeFastTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0849DF61E747E7B009EB1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0849DD41E747E7B009EB1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0849DDB1E747E7B009EB1AA;
+			remoteInfo = MyTapMeFast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0849DDC1E747E7B009EB1AA /* MyTapMeFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTapMeFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0849DE01E747E7B009EB1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0849DE21E747E7B009EB1AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0849DE31E747E7B009EB1AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0849DE51E747E7B009EB1AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0849DE61E747E7B009EB1AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0849DE91E747E7B009EB1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0849DEB1E747E7B009EB1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0849DEE1E747E7B009EB1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0849DF01E747E7B009EB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0849DF51E747E7B009EB1AA /* MyTapMeFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTapMeFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0849DF91E747E7B009EB1AA /* MyTapMeFastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTapMeFastTests.m; sourceTree = "<group>"; };
+		E0849DFB1E747E7B009EB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0849DD91E747E7B009EB1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0849DF21E747E7B009EB1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0849DD31E747E7B009EB1AA = {
+			isa = PBXGroup;
+			children = (
+				E0849DDE1E747E7B009EB1AA /* MyTapMeFast */,
+				E0849DF81E747E7B009EB1AA /* MyTapMeFastTests */,
+				E0849DDD1E747E7B009EB1AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0849DDD1E747E7B009EB1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0849DDC1E747E7B009EB1AA /* MyTapMeFast.app */,
+				E0849DF51E747E7B009EB1AA /* MyTapMeFastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0849DDE1E747E7B009EB1AA /* MyTapMeFast */ = {
+			isa = PBXGroup;
+			children = (
+				E0849DE21E747E7B009EB1AA /* AppDelegate.h */,
+				E0849DE31E747E7B009EB1AA /* AppDelegate.m */,
+				E0849DE51E747E7B009EB1AA /* ViewController.h */,
+				E0849DE61E747E7B009EB1AA /* ViewController.m */,
+				E0849DE81E747E7B009EB1AA /* Main.storyboard */,
+				E0849DEB1E747E7B009EB1AA /* Assets.xcassets */,
+				E0849DED1E747E7B009EB1AA /* LaunchScreen.storyboard */,
+				E0849DF01E747E7B009EB1AA /* Info.plist */,
+				E0849DDF1E747E7B009EB1AA /* Supporting Files */,
+			);
+			path = MyTapMeFast;
+			sourceTree = "<group>";
+		};
+		E0849DDF1E747E7B009EB1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0849DE01E747E7B009EB1AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0849DF81E747E7B009EB1AA /* MyTapMeFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0849DF91E747E7B009EB1AA /* MyTapMeFastTests.m */,
+				E0849DFB1E747E7B009EB1AA /* Info.plist */,
+			);
+			path = MyTapMeFastTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0849DDB1E747E7B009EB1AA /* MyTapMeFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0849DFE1E747E7B009EB1AA /* Build configuration list for PBXNativeTarget "MyTapMeFast" */;
+			buildPhases = (
+				E0849DD81E747E7B009EB1AA /* Sources */,
+				E0849DD91E747E7B009EB1AA /* Frameworks */,
+				E0849DDA1E747E7B009EB1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTapMeFast;
+			productName = MyTapMeFast;
+			productReference = E0849DDC1E747E7B009EB1AA /* MyTapMeFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0849DF41E747E7B009EB1AA /* MyTapMeFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0849E011E747E7B009EB1AA /* Build configuration list for PBXNativeTarget "MyTapMeFastTests" */;
+			buildPhases = (
+				E0849DF11E747E7B009EB1AA /* Sources */,
+				E0849DF21E747E7B009EB1AA /* Frameworks */,
+				E0849DF31E747E7B009EB1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0849DF71E747E7B009EB1AA /* PBXTargetDependency */,
+			);
+			name = MyTapMeFastTests;
+			productName = MyTapMeFastTests;
+			productReference = E0849DF51E747E7B009EB1AA /* MyTapMeFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0849DD41E747E7B009EB1AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Crawford";
+				TargetAttributes = {
+					E0849DDB1E747E7B009EB1AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EN498SV6Q8;
+						ProvisioningStyle = Automatic;
+					};
+					E0849DF41E747E7B009EB1AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EN498SV6Q8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0849DDB1E747E7B009EB1AA;
+					};
+				};
+			};
+			buildConfigurationList = E0849DD71E747E7B009EB1AA /* Build configuration list for PBXProject "MyTapMeFast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0849DD31E747E7B009EB1AA;
+			productRefGroup = E0849DDD1E747E7B009EB1AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0849DDB1E747E7B009EB1AA /* MyTapMeFast */,
+				E0849DF41E747E7B009EB1AA /* MyTapMeFastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0849DDA1E747E7B009EB1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0849DEF1E747E7B009EB1AA /* LaunchScreen.storyboard in Resources */,
+				E0849DEC1E747E7B009EB1AA /* Assets.xcassets in Resources */,
+				E0849DEA1E747E7B009EB1AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0849DF31E747E7B009EB1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0849DD81E747E7B009EB1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0849DE71E747E7B009EB1AA /* ViewController.m in Sources */,
+				E0849DE41E747E7B009EB1AA /* AppDelegate.m in Sources */,
+				E0849DE11E747E7B009EB1AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0849DF11E747E7B009EB1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0849DFA1E747E7B009EB1AA /* MyTapMeFastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0849DF71E747E7B009EB1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0849DDB1E747E7B009EB1AA /* MyTapMeFast */;
+			targetProxy = E0849DF61E747E7B009EB1AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0849DE81E747E7B009EB1AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0849DE91E747E7B009EB1AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0849DED1E747E7B009EB1AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0849DEE1E747E7B009EB1AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0849DFC1E747E7B009EB1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0849DFD1E747E7B009EB1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0849DFF1E747E7B009EB1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0849E001E747E7B009EB1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0849E021E747E7B009EB1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTapMeFast.app/MyTapMeFast";
+			};
+			name = Debug;
+		};
+		E0849E031E747E7B009EB1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTapMeFast.app/MyTapMeFast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0849DD71E747E7B009EB1AA /* Build configuration list for PBXProject "MyTapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0849DFC1E747E7B009EB1AA /* Debug */,
+				E0849DFD1E747E7B009EB1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0849DFE1E747E7B009EB1AA /* Build configuration list for PBXNativeTarget "MyTapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0849DFF1E747E7B009EB1AA /* Debug */,
+				E0849E001E747E7B009EB1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0849E011E747E7B009EB1AA /* Build configuration list for PBXNativeTarget "MyTapMeFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0849E021E747E7B009EB1AA /* Debug */,
+				E0849E031E747E7B009EB1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0849DD41E747E7B009EB1AA /* Project object */;
+}
