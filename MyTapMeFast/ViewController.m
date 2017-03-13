@@ -41,11 +41,34 @@
         
         timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(startCounter) userInfo:nil repeats:YES];
         
+        self.tapMeButton.enabled = YES;
+        self.tapMeButton.alpha = 1.0;
         
+        self.startGameButton.enabled = NO;
+        self.startGameButton.alpha = 0.5;
+        
+        
+    }
+    
+    if (timeInt == 0) {
+        
+        timeInt = 10;
+        tapInt = 0;
+        
+        self.timeLabel.text = [NSString stringWithFormat:@"%i", timeInt];
+        self.scoreLabel.text = [NSString stringWithFormat:@"%i", tapInt];
+        
+        [self.startGameButton setTitle:@"Start" forState:UIControlStateNormal];
+
     }
 }
 
 - (IBAction)tapButton:(id)sender {
+    
+    tapInt += 1;
+    
+    self.scoreLabel.text = [NSString stringWithFormat:@"%i", tapInt];
+    
 }
 
 -(void)startCounter {
@@ -57,6 +80,15 @@
     if (timeInt == 0) {
         
         [timer invalidate];
+        
+        self.tapMeButton.enabled = NO;
+        self.tapMeButton.alpha = 0.5;
+        
+        self.startGameButton.enabled = YES;
+        self.startGameButton.alpha = 1.0;
+        
+        [self.startGameButton setTitle:@"Restart" forState:UIControlStateNormal];
+        
     }
     
 }
